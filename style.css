@@ -138,3 +138,14 @@ form {
     margin-right: 20%;
     text-align: center;
 }
+
+.gameDesc {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gameDescTxt {
+    padding-left: 10px;
+}
