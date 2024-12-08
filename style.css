@@ -1,18 +1,32 @@
+:root {
+    --col1: #0D92F4;
+    --col2: #F95454;
+    --col3: #77cdff;
+    --col4: #C62E2E;
+    --colText: #27374D;
+}
+
 html {
-    background: #9DB2BF;
+    background: var(--col4);
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
     padding: 40px;
-    color: #27374D;
-    border-top: 10px solid #27374D;
-    background: #DDE6ED
+    color: var(--colText);
+    border-top: 10px solid var(--col1);
+    background: var(--col3)
 }
 
-h1 {
+h1{
+    background-image: url('images/modernSswordbsq.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center left;
     font-size: 3em;
+    padding-left: 55px;
+    margin: 100px 0 25px 0;
 }
 
 h2 {
@@ -33,14 +47,14 @@ p {
 }
 
 .blog-post {
-    border-bottom: 2px dotted #526d82;
+    border-bottom: 2px dotted var(--col1);
 }
 
 header {
     position: sticky;
     top: 0;
-    background: #DDE6ED;
-    border-bottom: 2px dotted #526d82;
+    background: var(--col3);
+    border-bottom: 2px dotted var(--col4);
 }
 
 ul {
@@ -62,11 +76,11 @@ table {
 }
 
 th {
-    border: 2px solid #27374D;
+    border: 2px solid var(--col4);
 }
 
 td {
-    border: 1px solid #27374D;
+    border: 1px solid var(--col4);
     padding-right: 10px;
 }
 
@@ -76,7 +90,7 @@ img {
 }
 
 a[rel="author"] {
-    color: #27374D;
+    color: var(--col4);
 }
 
 .meimg {
