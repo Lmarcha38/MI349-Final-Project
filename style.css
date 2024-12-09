@@ -102,10 +102,6 @@ img {
     padding-top: 10px;
 }
 
-a[rel="author"] {
-    color: var(--col4);
-}
-
 .imgCenter {
     margin-left: 20%;
     margin-right: 20%;
@@ -122,10 +118,6 @@ a[rel="author"] {
     display: flex;
     flex-direction: column;
     white-space: pre-line;
-}
-
-time {
-    font-weight: bold;
 }
 
 .pCenter {
@@ -153,4 +145,11 @@ form {
 .gameDescArt {
     display: block;
     height: 100%;
+}
+
+.tblCenter {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
 }
