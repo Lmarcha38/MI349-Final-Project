@@ -149,3 +149,8 @@ form {
 .gameDescTxt {
     padding-left: 10px;
 }
+
+.gameDescArt {
+    display: block;
+    height: 100%;
+}
